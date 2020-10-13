@@ -7,8 +7,8 @@ function DaysCompleted(props) {
     const { days } = props;
 
     return (
-        <div>
-            <h1> {days} Days Completed</h1>
+        <div className={'DaysCompleted'}>
+            <h1> {days} Days Completed!</h1>
         </div>
     );
 }
